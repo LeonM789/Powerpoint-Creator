@@ -67,13 +67,14 @@ Note that this code is designed exactly for the template provided and changes mu
 ## 🗂️ Example Data
 The txt files for which my code is written are build like this: 
 
-<br>
-
 ```
 Nachname: *first name*     Vorname: *last name*    Highlight: *bla bla bla* Hobbies: *bla bla bla*     Studiengang: *major* 
 ```
-
-<br>
+... and are named like this (!important):
+```
+GatesBill.txt
+GatesBill.jpg
+```
 
 The code and the template covers the following situations:
 1. There is only a txt for the student and the only information in it are the first name and the last name
