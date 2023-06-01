@@ -31,7 +31,7 @@ For the graduation ceremony of the Munich University of Applied Sciences, a Powe
 <br>
 
 ## 🛠️ Requirements
-The pyhton code in this repository is written in a jupyter notebook, and requires the following packages:
+This repository contains a Jupyter notebook and the notebook combined into a Python file, which require the following packages:
 <ul>
   <li>os (build in)</li>
   <li>requests</li>
@@ -39,12 +39,12 @@ The pyhton code in this repository is written in a jupyter notebook, and require
   <li>bs4</li>
   <li>pptx</li>
 </ul>
-You can easily install them via pip by running the first cell in the notebook.
+You can easily install them via pip by running the first cell in the notebook or by using the terminal.
 
 <br>
 <br>
 
-**It could be the case that you need an older version of Python for the download section in the notebook (e.g. 3.9.7) and a newer one (e.g. 3.11.1) for the creation part (simply change the kernel in-between.**
+**It could be the case that you need an older version of Python for the download section in the notebook (e.g. 3.9.7) and a newer one (e.g. 3.11.1) for the creation part (simply change the kernel in-between).**
 
 <br>
 
@@ -54,13 +54,16 @@ Note that this code is designed exactly for the template provided and changes mu
 <br>
 
 1. Make sure you have a link and access to a file server where all the files (txt and jpg) are linked
-2. Install all required packages by running the first cell
-3. Give the variable url the link to the file register
-4. Run the "download cell" to scrape the file register and download all the data to the folder where the notebook is located
-5. Adjust the code or your data and the powerpoint template by your needs
-6. Run the "create cell" to create the powerpoint
-7. Adjust the images in the powerpoint that are not well fitted
-8. Add your own slides that you need
+2. Download the template and the notebook or the Python file
+3. Install all required packages by running the first cell or by using the terminal
+4. Give the variable url the link to the file register
+5. Adjust the code or your data and the powerpoint template to your needs <br>
+    5.5. Run the Python file by using the terminal (cd *your/folder/path* , pyhton3 pp_creator.py) <br>
+    OR <br>
+    5.5. Run the "download cell" in the notebook to download all the data to the folder where the notebook is located <br>
+    5.6Run the "create cell" to create the powerpoint <br>
+6. Adjust the images in the powerpoint that are not well fitted <br>
+7. Add your own slides that you need
 
 <br>
 
