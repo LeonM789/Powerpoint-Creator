@@ -44,7 +44,7 @@ You can easily install them via pip by running the first cell in the notebook or
 <br>
 <br>
 
-**It could be the case that you need an older version of Python for the download section in the notebook (e.g. 3.9.7) and a newer one (e.g. 3.11.1) for the creation part (simply change the kernel in-between).**
+**It could be the case that you need an older version of Python for the download section in the notebook (e.g. 3.9.7) and a newer one (e.g. 3.11.1) for the creation part (at least I had some problems with the python versions).**
 
 <br>
 
