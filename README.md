@@ -37,20 +37,29 @@ This repository contains a Jupyter notebook and the notebook combined into a Pyt
   <li>requests</li>
   <li>urllib3</li>
   <li>bs4</li>
-  <li>pptx</li>
+  <li>python-pptx</li>
 </ul>
-You can easily install them via pip by running the first cell in the notebook or by using the terminal.
+You can easily install them via pip or use the `environment.yml` to build a matching environment with all the packages and dependencies. 
 
 <br>
 <br>
 
-**It could be the case that you need an older version of Python for the download section in the notebook (e.g. 3.9.7) and a newer one (e.g. 3.11.1) for the creation part (at least I had a few problems with the python versions).**
+If you use **conda** you can run the following command in your terminal:
+```
+conda env create -f environment.yml
+```
+
+After building the environment you can activate it with:<br>
+```
+conda activate pp_creator
+```
+
+and you are good to go.
 
 <br>
 
 ## 💡 Usage
 Note that this code is designed exactly for the template provided and changes must always be made in the PowerPoint slide master *AND* in the code to avoid errors.
-
 <br>
 
 1. Make sure you have a link and access to a file server where all the files (txt and jpg) are linked
